@@ -1,5 +1,5 @@
 <h3 align="center">
-  A monitoring tool for the raspberry pi! <a href="https://www.raspberrypi.org"><img src="https://www.raspberrypi.org/wp-content/uploads/2012/03/raspberry-pi-logo.png" alt="Raspberry Pi Logo" align="left" style="margin-right: 25px" height=150></a><br><br>
+  A monitoring tool for the raspberry pi wrtitten in python! <a href="https://www.raspberrypi.org"><img src="https://www.raspberrypi.org/wp-content/uploads/2012/03/raspberry-pi-logo.png" alt="Raspberry Pi Logo" align="left" style="margin-right: 25px" height=150></a><br><br>
   <a href="#">
     <img src="https://img.shields.io/badge/raspberry-pi-critical" alt="the pi!" height=24>
     <img src="https://img.shields.io/badge/Version-1.0.0-blue" alt="Version" height=24>
@@ -7,8 +7,7 @@
     <img src="https://img.shields.io/github/issues-raw/wk2poor/pistats" alt="issues (hopefully none)" height=24 title="hopefully none ;)">
   </a>
 </h3>
-<br>
-<br>
+<br><br>
 
 # Setup
 ```bash
