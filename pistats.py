@@ -7,7 +7,7 @@ from pystyle import Colors, Colorate
 import time
 import platform
 from datetime import datetime
-
+import urllib.request
 
 #this is the delay between the stats updating.
 #this is also in seconds
@@ -62,6 +62,7 @@ while True:
    '~ .~~~. ~'
        '~'
         """)
+    external_ip = urllib.request.urlopen('https://ident.me').read().decode('utf8')
     load1, load5, load15 = psutil.getloadavg()
     cpu_usage = (load15/os.cpu_count()) * 100
     boottxt = "=== UPTIME ==="
@@ -86,7 +87,8 @@ while True:
     networktxt = "=== NETWORK ==="
     print(Colors.blue + networktxt + Colors.white)
     print("Hostname:", socket.gethostname())
-    print("IPv4", socket.gethostbyname(socket.gethostname()))
+    print("local IP", socket.gethostbyname(socket.gethostname()))
+    print("IPv4", external_ip)
     io_2 = psutil.net_io_counters()
     us, ds = io_2.bytes_sent - bytes_sent, io_2.bytes_recv - bytes_recv
     print(f"Upload: {get_size(io_2.bytes_sent)}\n"
