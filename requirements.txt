@@ -4,3 +4,4 @@ psutil
 sockets
 lib-platform
 datetime
+pystyle
