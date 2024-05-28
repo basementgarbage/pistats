@@ -3,8 +3,8 @@
   <a href="#">
     <img src="https://img.shields.io/badge/raspberry-pi-critical" alt="the pi!" height=24>
     <img src="https://img.shields.io/badge/Version-1.0.0-blue" alt="Version" height=24>
-    <img src="https://img.shields.io/badge/Made%20By-wb-green" alt="it is!" height=24>
-    <img src="https://img.shields.io/github/issues-raw/wk2poor/pistats" alt="issues (hopefully none)" height=24 title="hopefully none ;)">
+    <img src="https://img.shields.io/badge/Made%20By-airer-green" alt="it is!" height=24>
+    <img src="https://img.shields.io/github/issues-raw/fentluv/pistats" alt="issues (hopefully none)" height=24 title="hopefully none ;)">
   </a>
 </h3>
 <br><br>
